@@ -64,6 +64,12 @@ footer {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    background-color: wheat;
+    height: 200px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-left: 112px;
+  
 }
 
 button {
@@ -97,6 +103,11 @@ p {
     align-items: flex-start;
     width: 50%;
     flex-wrap: wrap;
+    background-color: wheat;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) solid 2px;
+    height: 20vh;
+    margin-top: 16.3px;
 
 }
 
@@ -118,4 +129,9 @@ img {
     align-items: center;
     flex-direction: column;
     background-color: wheat;
+}
+
+
+#subject {
+    height: 393px;
 }
