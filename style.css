@@ -13,6 +13,8 @@ header {
 
 
 .ulnavbar {
+    text-align: center;
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +25,11 @@ header {
     margin-right: 50vh;
     font-family: cinzel;
     font-size: x-large;
-    color: #0817c2d2;
+    color: #060d5d;
     position: sticky;
     top: 0;
     overflow: hidden;
-    background-color: rgb(144, 120, 88);
+
 }
 
 .firsttextbelownav {
@@ -44,26 +46,76 @@ body {
     background-color: rgb(231, 192, 141);
 }
 
-.imgdechat {
-    width: 69vh;
-    height: 60vh;
-}
-
-#minicha {
-    display: flex;
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .enfantsect1 {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 footer {
-    border: red solid 2px;
-    height: 20vh;
+    height: 5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.formulairefooter {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: rgb(220, 148, 55);
+    border-radius: 9px;
+    padding: 2px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: rgb(2, 0, 146);
+}
+
+.parentsect {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.textp {
+    background-color: grey;
+    margin: 10px;
+}
+
+.enfant1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    flex-wrap: wrap;
+
+}
+
+#img1 {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.parentsect2 {
+    display: flex;
+    justify-content: center;
+}
+
+.enfant2 {
+    border-radius: 20px;
+    border: rgb(255, 255, 255) solid 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: wheat;
 }
