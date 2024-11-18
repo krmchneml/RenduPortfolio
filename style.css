@@ -55,9 +55,10 @@ body {
 }
 
 footer {
-    height: 5vh;
-    margin-left: 20%;
+    height: 28vh;
+    margin-left: 39vh;
     margin-right: 20%;
+    width: 95vh;
 }
 
 .formulairefooter {
@@ -72,6 +73,14 @@ footer {
   
 }
 
+#monparcours {
+    border: white solid 2px;
+    width: 20vh;
+    border-radius: 11px;
+    height: 4vh;
+    background-color: wheat;
+}
+
 button {
     background-color: rgb(220, 148, 55);
     border-radius: 9px;
@@ -82,7 +91,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     font-size: large;
-    color: rgb(2, 0, 146);
+    color: rgb(0, 0, 0);
 }
 
 .parentsect {
@@ -92,8 +101,9 @@ p {
 }
 
 .textp {
-    background-color: grey;
+    background-color: rgb(220, 209, 209);
     margin: 10px;
+    border-radius: 20px;
 }
 
 .enfant1 {
@@ -123,6 +133,15 @@ img {
 }
 
 .enfant2 {
+    border-radius: 20px;
+    border: rgb(255, 255, 255) solid 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: wheat;
+}
+
+.enfant3 {
     border-radius: 20px;
     border: rgb(255, 255, 255) solid 2px;
     display: flex;
