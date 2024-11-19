@@ -14,21 +14,17 @@ header {
 
 .ulnavbar {
     text-align: center;
-    position: sticky;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: var(--20px) auto 0;
     position: relative;
-    justify-content: space-around;
-    margin-left: 50vh;
-    margin-right: 50vh;
+    justify-content: center;
     font-family: cinzel;
     font-size: x-large;
     color: #060d5d;
-    position: sticky;
     top: 0;
     overflow: hidden;
+    gap: 50px;
 
 }
 
@@ -90,7 +86,6 @@ button {
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
-    font-size: large;
     color: rgb(0, 0, 0);
 }
 
@@ -116,9 +111,8 @@ p {
     background-color: wheat;
     border-radius: 10px;
     border: rgb(255, 255, 255) solid 2px;
-    height: 20vh;
     margin-top: 16.3px;
-
+    margin-right: -142px;
 }
 
 img {
