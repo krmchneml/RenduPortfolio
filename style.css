@@ -1,152 +1,89 @@
+body {
+
+    background: #301934;
+    animation: lacouleurmagiquemmdr 3s infinite alternate;
+}
+
+@keyframes lacouleurmagiquemmdr {
+    0% {
+        background-color: #301934;
+    }
+
+    25% {
+        background-color: #2c1230;
+    }
+
+    50% {
+        background-color: #451d4b;
+    }
+
+    75% {
+        background-color: #53235a;
+    }
+
+    100% {
+        background-color: #48294d;
+    }
+}
 ul {
     list-style: none;
+    gap: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;*
 }
 
 a {
     color: inherit;
     text-decoration: none;
+    transition: all ease 300ms;
 }
 
-header {
-    background-color: rgb(231, 192, 141)
-}
-
-
-.ulnavbar {
-    text-align: center;
+nav {
     display: flex;
     align-items: center;
-    margin: var(--20px) auto 0;
-    position: relative;
     justify-content: center;
-    font-family: cinzel;
-    font-size: x-large;
-    color: #060d5d;
+    background-color: #69046d;
+    padding: 15px 30px;
+    position: sticky;
     top: 0;
-    overflow: hidden;
-    gap: 50px;
-
-}
-
-.firsttextbelownav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 4.37%;
-    font-family: Cinzel;
-    color: #646cc8;
-}
-
-body {
-    background-color: rgb(231, 192, 141);
-}
-
-
-.enfantsect1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-footer {
-    height: 28vh;
-    margin-left: 39vh;
-    margin-right: 20%;
-    width: 95vh;
-}
-
-.formulairefooter {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    background-color: wheat;
-    height: 200px;
     border-radius: 20px;
-    flex-direction: column;
-    margin-left: 112px;
-  
+    z-index: 10;
+    /* en dessous ya lanim de la nav */
 }
 
-#monparcours {
-    border: white solid 2px;
-    width: 20vh;
-    border-radius: 11px;
-    height: 4vh;
-    background-color: wheat;
-}
+ 
 
-button {
-    background-color: rgb(220, 148, 55);
-    border-radius: 9px;
-    padding: 2px;
-}
+li {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    /*  après ya lanim en dessous */
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #91549b 0%,
+            #9848e9 29%,
+            #ed74ff 75%,
+            #dddddd 100%);
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: trovittexte 2s linear infinite;
+    display: inline-block;}
 
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-}
+    @keyframes trovittexte {
+        to {
+            background-position: 200% center;
+        }
+    }
 
-.parentsect {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    justify-content: center;
-    align-items: center;
-}
+    a {
+        color: inherit;
+        text-decoration: none;
+        transition: all ease 300ms;
+    }
 
-.textp {
-    background-color: rgb(220, 209, 209);
-    margin: 10px;
-    border-radius: 20px;
-}
-
-.enfant1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 50%;
-    flex-wrap: wrap;
-    background-color: wheat;
-    border-radius: 10px;
-    border: rgb(255, 255, 255) solid 2px;
-    margin-top: 16.3px;
-    margin-right: -142px;
-}
-
-img {
-    width: 40vw;
-    height: 40vh;
-    border-radius: 20px;
-}
-
-.parentsect2 {
-    display: flex;
-    justify-content: center;
-}
-
-.enfant2 {
-    border-radius: 20px;
-    border: rgb(255, 255, 255) solid 2px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: wheat;
-}
-
-.enfant3 {
-    border-radius: 20px;
-    border: rgb(255, 255, 255) solid 2px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: wheat;
-}
-
-
-#subject {
-    height: 393px;
-}
+    a:hover {
+        transform: scale(1.145);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
