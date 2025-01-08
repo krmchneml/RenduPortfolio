@@ -6,18 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">About me</a></li>
-        </ul>
-    </nav>
-</header>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <a href="">
+                    <li>Acceuil</li>
+                </a>
+                <a href="">
+                    <li>À propos de moi</li>
+                </a>
+                <a href="">
+                    <li>Mes Projets</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero-ctn">
+        <h1 id="maincharacter">Karim CHALANÇON</h1>
+        <h2>Passioné par l'informatique</h2>
+    </section>
+
+    <section class="abtme-ctn">
+        <div class="parcours">
+            <h2>Mon parcours</h2>
+            <p>La TOILE , EMLYON Business School - 2024-2025 <br> Formation Développement Web <br> <br> Acquisition de
+                compétences pratiques en développement web
+                HTML, CSS , Javascript
+                Réalisation de projets concrets en développement
+                d'applications web et sites responsives</p>
+            <p><br> </p>
+            <p>Formation professionnelle, Greta CFA - 2023-2024 <br> Technicien d’assistance en informatique</p>
+            <p><br></p>
+            <p>Lycée professionnel Jacques de Flesselles <br> Filière Système Numérique</p>
+            <img id="letterk" src="gummy-programming.png" alt="">
+        </div>
+        <div class="skills">
+            <h2>Mes Compétences</h2>
+            <p id="cssp">CSS <img id="css" src="icons8-logo-css-100.png" alt=""></p>
+            <p>Mise en page responsive avec Flexbox</p>
+            <p>Gestion de la typographie, des couleurs, et des animations</p>
+            <p>Personnalisation de l'apparence via les sélecteurs CSS</p>
+            <p id="htmlp">HTML <img id="html" src="icons8-html-5-48.png" alt=""></p>
+            <p>Structuration de pages web</p>
+            <p>compétences</p>
+            <p>Mise en place de formulaires et de tableaux</p>
+            <p>Mise en place de menus de navigation avec une hiérarchie claire</p>
+            <p>Structuration du HTML de manière flexible et évolutive pour garantir une expérience utilisateur optimale
+                sur tous les appareils (mobile, tablette, desktop)</p>
+            <p id="figmap">Figma <img id="figma" src="icons8-logo-figma-48.png" alt=""></p>
+            <p>Création de prototypes interactifs</p>
+            <p>Conception de maquettes et wireframes</p>
+            <p>Création de design system et de composants réutilisables</p>
+            <p id="pcp"><br> Maintenance et Support Informatique <img id="pc" src="icons8-mon-ordinateur-50.png" alt="">
+            </p>
+            <p>Installation et configuration de matériel et logiciels</p>
+            <p>Diagnostic de pannes informatiques et dépannage </p>
+            <p>Gestion des mises à jour systèmes et de la sécurité informatique</p>
+            <p>Résolution de problèmes de sécurité liés au matériel et aux logiciels</p>
+
+
+
+        </div>
+    </section>
+
+    <section class="projects-ctn">
+        <h2 id="mesprojets">Mes Projets</h2>
+        <div class="pjctn">
+            <div class="project1">
+                <h3>TroVit - VTC Grenoble </h3>
+                <a href="https://krmchneml.github.io/RenduJS/"><img id="trovit"
+                        src="Capture d’écran 2025-01-08 154831.png" alt=""></a>
+            </div>
+            <div class="project2">
+                <h3>David's Cartridge Pen</h3>
+                <a href="https://krmchneml.github.io/renduCSS./index.html"><img id="stylodavid" src="blabla.png"
+                        alt=""></a>
+            </div>
+            <div class="project3">
+                <h3>Prototype Application Covoiturage "Flow"</h3>
+                <a
+                    href="https://www.figma.com/proto/4ZhA2iejfcWpsBSG4VJdMc/Flow-Haute-Fidelit%C3%A9-K.CHN?page-id=1%3A2015&node-id=12-642&p=f&viewport=1561%2C565%2C0.45&t=znJuTkEjzAkTkUVW-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=12%3A642&show-proto-sidebar=1"><img
+                        id="covoit" src="pelo.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <h2 id="h2contact">Contactez moi</h2>
+    <div class="contactme">
+
+        <form id="form">
+            <label for="name">Nom/Prénom</label>
+            <input type="text" id="name" name="name" required placeholder="Votre nom et prénom">
+
+            <label for="email">Mail</label>
+            <input type="email" id="email" name="email" required placeholder="Votre adresse mail">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Votre message"></textarea>
+
+            <button id="buttonsumbit" type="submit">Envoyez</button>
+        </form>
+    </div>
+
+
 
 </body>
 
