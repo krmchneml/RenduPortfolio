@@ -271,12 +271,13 @@ nav ul {
 
 #pc {
     width: 80px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 
 #pcp {
     font-size: 2.25rem;
+    margin-left: 9px;
 }
 
 #letterk {
