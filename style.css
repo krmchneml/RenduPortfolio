@@ -194,10 +194,9 @@ nav ul {
 }
 
 .parcours {
-    border: #027373 solid 2px;
     width: 75rem;
-    border-right: #f1fcfb solid 2px;
     margin-left: 5px;
+    box-shadow: 6px -1px 22px #1720262b;
 }
 
 .parcours h2 {
@@ -213,8 +212,8 @@ nav ul {
 
 
 .skills {
-    border: #027373 solid 2px;
     width: 75rem;
+    box-shadow: 6px -1px 22px #1720262b;
 }
 
 .skills h2 {
@@ -270,14 +269,15 @@ nav ul {
 }
 
 #pc {
-    width: 80px;
-    margin-left: 10px;
+    width: 90px;
+    margin-left: -35px;
+    z-index: -1;
 
 }
 
 #pcp {
     font-size: 2.25rem;
-    margin-left: 9px;
+    margin-left: 45px;
 }
 
 #letterk {
@@ -380,5 +380,5 @@ h2 {
 label {
     font-family: "Rokkitt", serif;
     font-weight: 450;
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
 }
